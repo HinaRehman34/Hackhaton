@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AF52DE08;
+}
+
+img {
+    margin: 30px;
+}
+
+body {
+    background: linear-gradient(150deg, rgba(0, 0, 0, 0) 66%, rgb(221, 94, 238)100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+
+.nav-img {
+    margin-left: 18px;
+
+}
+
+.nav-item {
+    padding: 25px;
+    margin-left: auto;
+
+}
+
+.navbar1>a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+}
+
+button {
+    border: 1px solid rgb(189, 88, 189);
+    color: #000;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 8px;
+    height: 47px;
+    font-weight: bold;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.main-para {
+    position: relative;
+    padding: 50px;
+}
+
+.main-para>h1 {
+
+    font-weight: 600;
+}
+
+#free {
+    color: #BF40BF;
+}
+
+.main-para>p {
+    color: #333;
+}
+
+.main-image {
+    margin-right: 50px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-color: #BF40BF;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+  } */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav-img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-btn {
+        border-top-right-radius: 38px;
+        border-bottom-left-radius: 0;
+    }
+}
